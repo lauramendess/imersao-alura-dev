@@ -4,6 +4,9 @@ html, body {
     background-size: cover;
     font-family: "Gabarito", sans-serif;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .logo {
@@ -30,6 +33,7 @@ html, body {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    width: 50%;
   }
   
   .conteudo-jogo:hover {
@@ -62,6 +66,7 @@ html, body {
   
   /* Estilo da pergunta */
   .pergunta {
+    font-size: 1.5rem;
     font-weight: 800;
     color: white;
   }
