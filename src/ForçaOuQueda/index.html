@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imersão Dev</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script> 
+</head>
+
+<body>
+  <div class="logo">
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo da Imersão Dev" />
+  </div>
+  
+  <div class="titulo">
+    <h2>Força ou Queda</h2>
+  </div>
+  
+  <main class="conteudo-jogo">
+    <div id="container">
+      <h2>Escolha 3 jogadores para seu time:</h2>
+
+      <!-- Inputs para os heróis -->
+      <input type="text" id="heroi1" placeholder="Herói 1">
+      <input type="text" id="heroi2" placeholder="Herói 2">
+      <input type="text" id="heroi3" placeholder="Herói 3">
+      <br><br>
+
+      <button onclick="iniciarJogo()">Bora jogar!</button>
+
+      <p id="informacoesJogador" class="resultado"></p>
+      <p id="informacoesComputador" class="resultado"></p>
+
+      <button id="resultadoBtn" style="display:none;">Ver Resultado</button>
+      <p id="resultadoFinal" class="resultado"></p>
+    </div>
+  </main>
+</body>
+</html>
